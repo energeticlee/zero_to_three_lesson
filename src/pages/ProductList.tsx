@@ -12,7 +12,6 @@ const ProductList = () => {
       console.log("DATA is: ", data.data.all_time_high.price);
       setBtcAthPrice(data.data.all_time_high.price);
     };
-    console.log("useEffect Called");
     fetchBtcPrices();
   }, []);
 
